@@ -215,6 +215,10 @@ const evalution=()=>{
  equals.onclick = function(){
     
     evalution()
+    equals.style.backgroundColor = '#FFE2AD'
+    setTimeout(function(){
+        equals.style.backgroundColor = 'orange'
+    }, 300)
     return displayValue.textContent
 
 }
